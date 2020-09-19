@@ -106,7 +106,7 @@
   
   .search-box {
     width: 450px;
-    height: 35px;
+    height: 35px!important;
   }
   
   .search-btn {
@@ -141,15 +141,15 @@
   }
   
   .user-icon {
-    width: 35px;
-    height: 32px;
+    width: 18px;
+    height: 25px;
     margin: 0 !important;
     padding-bottom: 3px;
     padding-top: 3px;
   }
   
   .user-button {
-    height: 35px !important;
+    height: 28px !important;
     padding: 1px 6px 2px 3px !important;
     color: white !important;
     
@@ -314,8 +314,8 @@
   }
   
   .right-scrollable-section {
-    margin-left: 140px;
-    border-left: solid 1px #d6d9dc;
+    margin-left: 0px;
+   
   }
   
   .right-scrollable-section-hp {
@@ -1037,8 +1037,9 @@
           .parent2 {
               
               background-color: white;
-              padding: 20px;   
-              border: solid 2px lightgray; 
+              padding: 10px;   
+              border: solid 1px lightgrey; 
+              
               margin: 30px;
               
               
@@ -1066,7 +1067,8 @@
           }
   
           .input-group{
-              padding: 20px 30px;
+              
+              padding: 0px 0px 30px 0px;
               
           }
   
@@ -1101,27 +1103,56 @@
           }
           .parent2{
            
-            
-            box-shadow: 10px 20px grey;
+            margin-top: 0px!important;
+            box-shadow:  3px 8px 20px 5px #d8d3cd;
           }
+           .col-5{
+            padding-right:75px!important;
+            
+          } 
           input {
             font-family:Arial,'FontAwesome'!important;
+            
           }
           textarea{
             font-family: Arial, 'FontAwesome'!important;
+          
           }
-          input[type=text]{
+          /* input[type=text]{
             font-family: Arial;
-            height: 40px;
-          }
+           
+          } */
+         
+      
+        ::placeholder{
+         
+            color:#d8d3cd!important;
+       
+         
+      }
+      .send-btn{
+        margin-top: 20px;
+      }
+     
+      
+      .form-control{
+        font-size: 15px;
+        height: 50px;
+        /* border: none!important; */
+        box-shadow: none!important;
+        border-radius: 2px!important;
+        border-color: #d8d3cd!important;
+      }
+      .select{
+        color:#d8d3cd;
+        font-family: Arial, 'FontAwesome'!important;
+    }
+    .input-group{
+      margin: 10px 0px;
+    }
+        
           @media only screen and (min-width:200px) and (max-width:725px) {
-             
-           /* .parent2{
-              
-              
-              border: 0px;
-              box-shadow: 0px 0px;
-              margin:auto;*/
+            
             
             .contact-us-col{
               
@@ -1137,8 +1168,8 @@
             }
             .col-5{
               max-width: 100%;;
-              padding-left: 0px;
-              padding-right: 0px;
+              padding-left: 0px!important;
+              padding-right: 0px!important;
               /* margin: 5px; */
             }
             .right-scrollable-section{
